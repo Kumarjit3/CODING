@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+    <title>Job Application Form</title>
+</head>
+<body align="">
+    <h2>Job Application</h2>
+    <form> 
+    <label for="name"><b>Name : </b></label> <br>
+    <input type="name" name="name" id="name"> <br>
+    <br>
+    <label for="email"><b>Email : </b></label> <br>
+    <input type="email" name="email" id="email"> <br>
+    <br>
+    <label for="phone"><b>Phone : </b></label> <br>
+    <input type="tel" name="phone" id="phone"> <br>
+    <br>
+    <label for="resources"><b>Resume : </b></label> <br>
+    <input type="file" name="resources" id="resources"> <br>
+    <br>
+    <label for="exp"><b>Experience(Year) : </b></label> <br>
+    <input type="number" name="exp" id="exp" min="0" max="50" > <br>
+    <br>
+    <fieldset style="size: 5cm;">
+        <legend>Skills</legend>
+        <label for="Skills"><b>HTML</b></label> <br>
+        <input type="checkbox" name="Skills" id="Skills"> <br>
+
+        <label for="Skills"><b>CSS</b></label> <br>
+        <input type="checkbox" name="Skills" id="Skills"> <br>
+
+        <label for="Skills"><b>JAVASCRIPT</b></label> <br>
+        <input type="checkbox" name="Skills" id="Skills"> <br>
+      </fieldset>
+
+    <br>
+    <label for="education"><b>Highest Education Qualification</b></label> <br>
+    <select name="list" id="list">
+        <option value="a">Higher Secondary</option>
+        <option value="b">Matric</option>
+        <option value="c">Graduate</option>
+        <option value="d">Masters</option>
+        <option value="e">PHD</option>
+    </select>
+     <br>
+     <br>
+     <fieldset>
+     <label for="av"><b>Availability : </b></label> <br>
+    
+     <label for="av1">Part Time</label>
+     <input type="radio" name="av" id="av1"> <br>
+
+     <label for="av2">Full Time</label> 
+     <input type="radio" name="av" id="av2"> <br>
+    </fieldset>
+     <br>
+     
+     <label for="txt1"><b>Additional Comments : </b></label>
+     <br>
+     <textarea name="txte" id="txt1" cols="20" rows="10" placeholder="Enter Your Comments Here........."></textarea>
+     <button>Submit Application</button>
+ 
+</form>
+
+   
+
+</body>
+</html>

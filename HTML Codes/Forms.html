@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<head>
+    <title>Creating Froms</title>
+    <style>
+        button{
+            font-size: 18px;
+            font-weight: 700;
+            border-radius: 3px;
+            padding: 12px 20px;
+            margin: 50px;
+            border: none;
+            color: #fff;
+            background-color: lightseagreen;
+        }
+        button:hover
+        {
+            box-shadow: 5px 5px 10px black;
+        }
+    </style>
+</head>
+<body bgcolor="pink" align="center">
+   <center> <h2 style="color: navy;""><u>Mobile Service Application FORM</u></h2> </center>
+ <form>
+       
+        <label for="FName"><b>Enter Your First Name : </b></label>
+        <input type="text" name="Name" id="FName" placeholder="Enter Your First Name Here">
+        <br>
+        <br>
+        <label for="LName"><b>Enter Your Last Name : </b></label>
+        <input type="text" name="Name" id="LName" placeholder="Enter Your Last Name Here">
+        <br>
+        <br>
+        <label for="email"><b>Enter Your Email Id : </b></label>
+        <input type="txt" name="email" id="email" placeholder="Enter Your Email Here">
+        <br>
+        <br>
+        <label for="Address"><b>Enter Your Address : </b></label>
+        <input type="text" name="Address" id="Address" placeholder="Enter Your Address Here">
+        <br>
+        <br>
+        <label for="password"><b>Enter Your Password : </b></label>
+        <input type="password" id="password" placeholder="Enter Your Password Here">
+        <br>
+        <br>
+        <label for="Date"><b>Enter Your DOB : </b></label>
+        <input type="date" name="Date" id="Date" placeholder="Enter Your DOB Here">
+        <br>
+        <br>
+    <textarea name="complain" id="complain" cols="20" rows="10" placeholder="Enter Your Complain Here Between 0-100 Words..........."></textarea>
+     <br>
+     <br>
+  
+    <label for="selection"><b>Select Your Phone Brand : </b></label>
+    <select name="Ph Brand" id="selection">
+        <option value="Iphone">Iphone</option>
+        <option value="One Plus">One Plus</option>
+        <option value="Samsung Galaxy">Samsung Galaxy</option>
+        <option value="Reamle">Realme</option>
+        <option value="Redmi">Redmi</option>
+        <option value="Moto">Moto</option>
+        <option value="Vivo"></option>
+        <option value="Oppo"></option>
+    </select>
+     <br>
+     <br>
+
+     <div>
+        <label for="Phone_color"><b>Enter Your Phone Color : </b></label>
+        <input type="color" name="Phone_color" id="Phone_color" value="navy">
+     </div>
+     <br>
+    
+     <label for="gen"><b>Select Your Gender : </label></b></label>
+      <br>
+      <input type="radio" id="M" name="Gender" value="Male">
+      <label for="Gender">Male</label>
+      <br>
+      <input type="radio" id="F" name="Gender" value="Female">
+      <label for="Gender">Female</label>
+       <br>
+       <br>
+
+       <div>
+        <p>
+            <label for="damage"><b>Enter Ammount Of Damage : </b></label> <br>
+            <input type="range" min="10" max="100" step="3" value="0" name="damage_percent" id="damage">
+        </p>
+       </div>
+    
+        <h3>What You Like The Most About Us : </h3>
+
+        <div>
+       <input type="checkbox" id="one" name="Review" value="Facilities">
+       <label for="one">Facilities</label>
+       <input type="checkbox" id="two"  name="Review" value="Behaviours">
+       <label for="two">Behaviours</label>
+       </div>
+
+       <div>
+       <input type="checkbox" id="three" name="Review" value="Motivation">
+       <label for="three">Motivation</label>
+       <input type="checkbox" id="four" name="Review" value="Quick Response">
+       <label for="four">Quick Response</label>
+       </div>
+
+       <div>
+       <input type="checkbox" id="five" name="Review" value="Good Review">
+       <label for="five">Good Review</label>
+       <input type="checkbox" id="six" name="Review" value="Price">
+       <label for="six">Price</label>
+       </div>
+
+       <div>
+        <input type="checkbox" name="Review" id="seven" value="Everything">
+        <label for="seven">Everything</label>
+       </div>
+       <br>
+       <br>
+
+       <p>
+        <label for="Rating">
+            <b>Enter Your Rating Out Of 10 : </b>
+            <input type="number" name="Rating" id="rating" min="0" max="10">
+        </label>
+       </p>
+
+       <button>SUBMIT</button>
+ </form>
+ <br><br>
+ <footer>
+    <p>&copy 2023 Kumarjit Mongal. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
